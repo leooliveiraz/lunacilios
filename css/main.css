@@ -1,0 +1,41 @@
+body{
+          margin: 0;
+          height: 100%;
+}
+main{
+          margin: 0;
+}
+
+.mapa{
+          width: 100%;
+          height: 400px;
+}
+.icone-servico{
+          font-size: 90px;
+}
+
+@media screen and (min-width: 600px) {
+          .img-portifolio{
+                    height: 180px !important;
+                    max-height: 180px !important;
+                    max-width: 29% !important;
+          }
+}
+
+@media screen and (min-width: 993px) {
+          .img-portifolio{
+                    max-height: 230px !important;
+                    height: 230px !important;
+                    max-width: 25% !important;
+          }
+}
+
+
+.rede-social{
+          font-size: 20px;
+}
+.icone-rede-social{
+          padding-top: 5px;
+          margin-right: 5px;
+          width: 28px;
+}

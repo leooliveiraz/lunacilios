@@ -9,6 +9,7 @@ main{
 .mapa{
           width: 100%;
           height: 400px;
+          margin-top: 1em;
 }
 
 .icone-servico{

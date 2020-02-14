@@ -10,8 +10,33 @@ main{
           width: 100%;
           height: 400px;
 }
+
 .icone-servico{
           font-size: 90px;
+}
+
+.rede-social{
+          font-size: 20px;
+}
+
+.icone-rede-social{
+          padding-top: 5px;
+          margin-right: 5px;
+          width: 28px;
+}
+
+
+@media screen and (max-width: 600px) {
+          .banner-tablet{
+                    height:0px !important;
+          }
+          
+          .banner-celular {                    
+                    height:300px !important;
+          }
+          .banner{
+                    height:0px !important;
+          }
 }
 
 @media screen and (min-width: 600px) {
@@ -19,7 +44,16 @@ main{
                     height: 180px !important;
                     max-height: 180px !important;
                     max-width: 29% !important;
+          }          
+          .banner{
+                    height:0px !important;
           }
+          .banner-celular {
+                    height: 0px !important;
+          }                
+          .banner-tablet{
+                    height:400px !important;
+          }    
 }
 
 @media screen and (min-width: 993px) {
@@ -27,15 +61,16 @@ main{
                     max-height: 230px !important;
                     height: 230px !important;
                     max-width: 25% !important;
+          }          
+          .banner-tablet{
+                    height:0px !important;
           }
+          .banner-celular {
+                    height: 0px !important;
+          }   
+          .banner {
+                    height: 500px !important;
+          }       
 }
 
 
-.rede-social{
-          font-size: 20px;
-}
-.icone-rede-social{
-          padding-top: 5px;
-          margin-right: 5px;
-          width: 28px;
-}

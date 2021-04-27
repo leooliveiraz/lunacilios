@@ -25,6 +25,10 @@ main{
           margin-right: 5px;
           width: 28px;
 }
+.ancora{
+  height: 1em;
+}
+
 .agende:hover{
          color: #d81b60 !important;
          font-size: 3.8rem;
@@ -74,7 +78,11 @@ main{
           }   
           .banner {
                     height: 500px !important;
-          }       
+          }      
+                    
+          .clique-agende{
+            height: 11em;
+          } 
 }
 
 
